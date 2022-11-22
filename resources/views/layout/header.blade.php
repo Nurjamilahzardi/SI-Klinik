@@ -2,7 +2,7 @@
     <!-- Fixed navbar -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Sistem Informasi KLINIK</a>
+            <a class="navbar-brand" href="#">SIKLINIK</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -12,7 +12,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="/home">Home</a>
                     </li>
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link" href="/#">Dokter</a>
                     </li>
                     <li class="nav-item">
@@ -20,19 +20,19 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="/#">Perawat</a>
-                    </li>
+                    </li> --}}
                     {{-- <li class="nav-item">
                         <a class="nav-link " href="/ruangan">Ruangan</a>
                     </li> --}}
                     {{-- <li class="nav-item">
                         <a class="nav-link " href="/pembayaran">Pembayaran</a>
                     </li> --}}
-                    <li class="nav-item">
+                    {{-- <li class="nav-item">
                         <a class="nav-link " href="/#">Obat</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " href="/#">Poliklinik</a>
-                    </li>
+                    </li> --}}
                 </ul>
 
                 <ul class="navbar-nav ms-auto mb-2 mb-md-0">
