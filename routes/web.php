@@ -6,6 +6,8 @@ use App\Http\Controllers\DokterController;
 use App\Http\Controllers\DokterDashboardController;
 use App\Http\Controllers\PasienController;
 use App\Http\Controllers\PasienDashboardController;
+
+use App\Http\Controllers\PerawatDashboardController;
 use App\Http\Controllers\ObatController;
 use App\Http\Controllers\ObatDashboardController;
 use App\Http\Controllers\PembayaranController;
@@ -57,5 +59,7 @@ Route::resource('pembayaran', PembayaranController::class);
 //Dashboard
 Route::resource('dokterdashboard', DokterDashboardController::class);
 Route::resource('pasiendashboard', PasienDashboardController::class);
+
+Route::resource('perawatdashboard', PerawatDashboardController::class);
 Route::resource('obatdashboard', ObatDashboardController::class);
 Route::resource('pembayarandashboard', PembayaranDashboardController::class);

@@ -14,19 +14,19 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('perawatdashboard') ? 'active' : '' }}" href="/#">
+                <a class="nav-link {{ Request::is('perawatdashboard') ? 'active' : '' }}" href="/perawatdashboard">
                     <i class="fa-solid fa-user-nurse"></i>
                     Perawat
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('pasiendashboard') ? 'active' : '' }}" href="/#">
+                <a class="nav-link {{ Request::is('pasiendashboard') ? 'active' : '' }}" href="/pasiendashboard">
                     <i class="fa-solid fa-users"></i>
                     Pasien
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link {{ Request::is('obatdashboard') ? 'active' : '' }}" href="/#">
+                <a class="nav-link {{ Request::is('obatdashboard') ? 'active' : '' }}" href="/obatdashboard">
                     <i class="fa-solid fa-pills"></i>
                     Obat
                 </a>

@@ -8,6 +8,7 @@ use App\Models\User;
 use App\Models\Dokter;
 use App\Models\Pasien;
 use App\Models\Obat;
+use App\Models\Perawat;
 
 
 class DatabaseSeeder extends Seeder
@@ -27,6 +28,7 @@ class DatabaseSeeder extends Seeder
 
 
        Pasien::factory(5)->create();
+       Perawat::factory(5)->create();
 
       Obat::factory(5)->create();
 
@@ -36,9 +38,9 @@ class DatabaseSeeder extends Seeder
         \App\Models\User::factory(10)->create();
 
         \App\Models\User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
-            'password' => 'password'
+            'name' => 'Bajrul Hakimi',
+            'email' => 'bajrul@gmail.com',
+            'password' => 'qwerty'
         ]);
 
     }
