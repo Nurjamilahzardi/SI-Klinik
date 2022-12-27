@@ -18,9 +18,9 @@ return new class extends Migration
             $table->char('nip',10)->unique();
             $table->string('namadokter');
             $table->string('alamat');
-            $table->char('jenis_kelamin',1);
             $table->string('spesialis');
             $table->string('fee');
+            $table->char('jenis_kelamin',1);
             $table->string('notelp');
             $table->timestamps();
         });
