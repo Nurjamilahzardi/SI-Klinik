@@ -94,8 +94,9 @@ class DokterController extends Controller
             'nip' => 'required',
             'namadokter' => 'required',
             'alamat' => 'required',
-            'jenis_kelamin' => 'required|in:P,L',
             'spesialis' => 'required',
+            'fee' => 'required',
+            'jenis_kelamin' => 'required|in:P,L',
             'notelp' => 'required'
         
         ]);
